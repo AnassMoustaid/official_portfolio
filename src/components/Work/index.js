@@ -1,9 +1,10 @@
 import './index.scss'
+import Loader from 'react-loaders'
 
 
 const Work = () => {
     return(
-       
+       <>
         <div className='work-done'>
             <h1>Example of work done so far:  </h1>
             <ul>
@@ -14,7 +15,8 @@ const Work = () => {
 
             </ul>    
         </div>
-       
+        <Loader type="pacman" />
+        </>
     )
 }
 
