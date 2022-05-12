@@ -4,8 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
+  faUserPen
 } from '@fortawesome/free-brands-svg-icons'
-import { faHome, faUser, faEnvelope, faBriefcase } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faBriefcase, faPlayCircle } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -49,6 +50,15 @@ const Sidebar = () => {
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://anassmoustaid.github.io/curriculum_vitae/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faPlayCircle} color="#4d4d4e" />
           </a>
         </li>
       </ul>
