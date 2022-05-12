@@ -1,6 +1,67 @@
-.work-done {
+h5 {
+    align-self: center;
     color: white;
+    padding: 20px;
+    font-size: 3rem;
+}
+
+h3 {
+    color: #36e71f;
+    text-align : center;
+}
+
+
+img {
+    position: relative;
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+}
+
+.portfolio {
     margin-left: 100px;
-    margin-top: 200px;
-    font-size: large;
+}
+
+.portfolio_container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2;
+    margin-bottom: 20px;
+}
+
+.portfolio_section {
+    opacity: 0.5;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+}
+
+.portfolio_item {
+    opacity : 0.5
+}
+
+.portfolio_item:hover {
+    opacity: 1;
+}
+
+.github, .live_demo {
+
+      color: #36e71f;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-decoration: none;
+      padding: 8px 10px;
+      border: 1px solid #36e71f;
+      border-radius: 4px;
+      background: 0 0;
+      text-transform: uppercase;
+      text-align: center;
+      position: relative;
+}
+
+.github:visited, .live_demo:visited{
+    text-decoration-color: #36e71f ;
+}
+
+.github:hover , .live_demo:hover {
+    text-decoration-color: #36e71f ;
 }
