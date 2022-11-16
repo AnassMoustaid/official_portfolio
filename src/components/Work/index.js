@@ -14,7 +14,7 @@ const Work = () => {
 
 
     useEffect(() => {
-        return setTimeout(() => {
+        setTimeout(() => {
           setLetterClass('text-animate-hover')
         }, 2000)
       }, [])
@@ -29,7 +29,8 @@ const Work = () => {
               idx={50}
             /></h1>
             <div className=" portfolio_container "> 
-                <article className="portfolio_section ">
+            
+                <article className="portfolio_section text-zone ">
                 
                     <h3>Bootstrap Project</h3>
                          <img className='image' src={bootstrap} alt="..."/>
