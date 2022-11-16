@@ -22,12 +22,12 @@ const Work = () => {
 
     return(
         <section className='portfolio' > 
-        <h1>
-            <AnimatedLetters
-              letterClass = {letterClass}
-              strArray={[ 'P', 'r', 'o', 'j', 'e', 'c', 't', 's', '', 'd', 'o', 'n', 'e', '', ':']}
-              idx={50}
-            /></h1>
+        {/* <h1>
+            {/* <AnimatedLetters
+            //   letterClass = {letterClass}
+            //   strArray={[ 'P', 'r', 'o', 'j', 'e', 'c', 't', 's', '', 'd', 'o', 'n', 'e', '', ':']}
+            //   idx={50}
+            // /></h1> */} */
             <div className=" portfolio_container "> 
             
                 <article className="portfolio_section text-zone ">
